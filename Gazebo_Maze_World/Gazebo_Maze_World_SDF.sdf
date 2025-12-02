@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="Gazebo_Maze_World">
+    <static>true</static>
+
+    <link name="link">
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>file://home/......./models/Gazebo_World_Meter/meshes/Gazebo_Maze_World.stl</uri>
+            <scale>2 2 2</scale>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>file://home/......../models/Gazebo_World_Meter/meshes/Gazebo_Maze_World.stl</uri>
+            <scale>2 2 2</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>
+
